@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">Dashboard</header>
+
+        <div class="dashboard-body">
+            <nav class="sidebar">
+                <ul>
+                    <li class="Menu">Icon1</li>
+                    <li class="Menu">Icon2</li>
+                    <li class="Menu">Icon3</li>
+                    <li class="Menu">Icon4</li>
+                    <li class="Menu">Icon5</li>
+                </ul>
+            </nav>
+
+            <div class="main-content">
+                <div class="box-grid">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div class="footer">
+                    <div class="graph">
+                        <p><b>Graph</b></p>
+                        <img src="data:image/png;base64,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">
+                    </div>
+
+                    <div class="list-section">
+                        <ul>
+                            <li class="list">list1</li>
+                            <li class="list">list2</li>
+                            <li class="list">list3</li>
+                            <li class="list">list4</li>
+                            <li class="list">list5</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
